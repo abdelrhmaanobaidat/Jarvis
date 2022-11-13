@@ -1,6 +1,12 @@
 #!/bin/bash
 
-
+# This is the Jarvis Hello message
+function Jarvis_hello {
+	echo "[!] Hello, Jarvis is here to help you.."
+	echo -e "[!] Today is $(date).."
+	echo -e "[!] Developed by: Abed Al-Rahman Obeidat..\n"
+	echo -e "[!] Assignment 2 for ATYPON classroom.. "
+}
 
 # This is the main menu of the program 
 function mainMenu {
