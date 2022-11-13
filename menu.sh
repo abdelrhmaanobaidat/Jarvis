@@ -2,7 +2,7 @@
 
 # This creats .tar.gz backup file for the script
 function Backup {
-	Backup=./menu-backup_$(date +%Y-%m-%d_%H-%M).tar.gz
+	Back_up=./menu-backup_$(date +%Y-%m-%d_%H-%M).tar.gz
 	tar -zcvf $Backup ./menu.sh
 }
 
