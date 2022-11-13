@@ -45,8 +45,8 @@ function Status {
         echo -e "tx $INF: $TXperSecond pkts/s \nrx $INF: $RXperSecond pkts/s"
 	
 	# disk utilization
-	echo -e "\e[1;36md- EXTRA | disk utilization \e[0m"
-	echo "disk utilization is: $(df -P | grep /dev/sd | grep -v -E '(tmp|boot)' | awk '{print $5}')"
+	echo -e "\e[1;36md- EXTRA | disk utilization. \e[0m"
+	echo "disk utilization is $(df -P | grep /dev/sd | grep -v -E '(tmp|boot)' | awk '{print $5}')"
 }
 
 function Who {
