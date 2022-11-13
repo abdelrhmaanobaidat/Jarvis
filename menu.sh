@@ -1,18 +1,6 @@
 #!/bin/bash
 
-# This creats .tar.gz backup file for the script 
-function Backup {
-	Backup=./menu-backup_$(date +%Y-%m-%d_%H-%M).tar.gz
-	tar -zcvf $Backup ./menu.sh
-}
 
-# This is the Jarvis Hello message 
-function Jarvis_hello {
-	echo "[!] Hello, Jarvis is here to help you.."
-	echo -e "[!] Today is $(date).."
-	echo -e "[!] Developed by: Abed Al-Rahman Obeidat..\n"
-	echo -e "[!] Assignment 2 for ATYPON classroom.. "
-}
 
 # This is the main menu of the program 
 function mainMenu {
