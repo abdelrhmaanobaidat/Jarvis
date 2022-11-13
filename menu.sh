@@ -195,7 +195,7 @@ function main {
 	tput clear 
 
 	# Take backup of the current file
-	#Backup
+	Backup
 	
 	# Print the hello message
 	Jarvis_hello 
